@@ -1,0 +1,117 @@
+#weatherApp {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(173, 216, 230, 0);
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; }
+
+#wApp {
+  width: 450px;
+  height: 200px;
+  display: inline-block;
+  background-color: rgba(173, 216, 230, 0); }
+  #wApp #overview {
+    position: relative;
+    display: inline-block;
+    margin: 5px -5px 0 5px;
+    float: left;
+    width: 150px;
+    height: 200px;
+    text-align: center; }
+  #wApp .details {
+    position: relative;
+    display: inline-block;
+    float: middle;
+    width: 150px;
+    height: 200px;
+    text-align: center; }
+  #wApp .wind {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 150px;
+    height: 200px; }
+  #wApp ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  #wApp h2 {
+    margin: 0;
+    font-size: 24px; }
+  #wApp p {
+    display: inline-block;
+    margin: 0 5px 0 0; }
+  #wApp .weathericon {
+    display: block;
+    height: 133.33333px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10%;
+    margin-bottom: -10%; }
+  #wApp div {
+    display: inline-block; }
+  #wApp .description {
+    margin: 0; }
+  #wApp .desc {
+    font-size: 14px;
+    margin: 0; }
+  #wApp .data {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    margin: 0; }
+  #wApp .windata {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    margin: 0; }
+  #wApp .update {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    vertical-align: bottom;
+    display: inline-block;
+    font-size: 10px; }
+  #wApp .time {
+    margin-top: 5px;
+    font-size: 14px; }
+  #wApp .windimg {
+    position: absolute;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; }
+  #wApp .windarrow {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    left: 50%; }
+  #wApp .wind {
+    display: block;
+    text-align: center; }
+  #wApp .sunrise {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: -10px; }
+  #wApp .sunset {
+    height: 40px;
+    vertical-align: bottom; }
+  #wApp .sunsetimg {
+    height: 20px;
+    display: inline-block;
+    margin: 0; }
+  #wApp .sunriseimg {
+    height: 20px;
+    display: inline-block;
+    margin: 0; }
+  #wApp .sun {
+    vertical-align: top; }
+  #wApp .dial {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    width: 100px; }
+
+/*# sourceMappingURL=style.css.map */

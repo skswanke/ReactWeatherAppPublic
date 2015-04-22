@@ -1,0 +1,145 @@
+$width: 450px
+$height: 200px
+
+$primary-color: rgba(173, 216, 230, 0)
+$secondary-color: LightBlue
+$font-stack: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif
+$mono-font-stack: Consolas, "Liberation Mono", Menlo, Courier, monospace
+
+#weatherApp
+	position: relative
+	display: inline-block
+	background-color: $primary-color
+	font-family: $font-stack
+
+#wApp
+	width: $width
+	height: $height
+	display: inline-block
+	background-color: $primary-color
+
+	#overview
+		position: relative
+		display: inline-block
+		margin: 5px -5px 0 5px
+		float: left
+		width: $width / 3
+		height: $height
+		text-align: center
+
+	.details
+		position: relative
+		display: inline-block
+		float: middle
+		width: $width / 3
+		height: $height
+		text-align: center
+
+	.wind
+		position: relative
+		display: inline-block
+		float: right
+		width: $width / 3
+		height: $height
+
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+
+	h2 
+		margin: 0
+		font-size: 24px
+
+	p 
+		display: inline-block
+		margin: 0 5px 0 0
+
+	.weathericon
+		display: block
+		height: $height / 1.5
+		margin-left: auto
+		margin-right: auto
+		margin-top: -10%
+		margin-bottom: -10%
+
+	div
+		display: inline-block
+
+	.description
+		margin: 0
+
+	.desc
+		font-size: 14px
+		margin: 0
+
+	.data
+		font-size: 20px
+		font-weight: bold
+		font-family: $mono-font-stack
+		margin: 0
+
+	.windata
+		font-size: 20px
+		font-weight: bold
+		font-family: $mono-font-stack
+		margin: 0
+
+	.update
+		position: absolute
+		bottom: 2px
+		right: 2px
+		vertical-align: bottom
+		display: inline-block
+		font-size: 10px
+	.time
+		margin-top: 5px 
+		font-size: 14px
+
+	.windimg
+		position: absolute
+		height: 100px
+		left: 50%
+		top: 50%
+		transform: translate(-50%,-50%)
+		margin: 0
+
+	.windarrow
+		position: absolute
+		width: 70px
+		height: 70px
+		top: 50%
+		left: 50%
+
+	.wind
+		display: block
+		text-align: center
+
+	.sunrise
+		height: 40px
+		margin-top: 10px
+		margin-bottom: -10px
+
+	.sunset
+		height: 40px
+		vertical-align: bottom
+
+	.sunsetimg
+		height: 20px
+		display: inline-block
+		margin: 0
+
+	.sunriseimg
+		height: 20px
+		display: inline-block
+		margin: 0
+
+	.sun 
+		vertical-align: top
+
+	.dial
+		position: relative
+		margin-right: auto
+		margin-left: auto
+		height: 100px
+		width: 100px
