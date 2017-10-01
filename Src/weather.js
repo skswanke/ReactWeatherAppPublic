@@ -220,7 +220,7 @@ var WeatherApp = React.createClass({
 });
 
 React.render(
-  <WeatherApp pollInterval={10000} />,
+  <WeatherApp pollInterval={2000} />,
   document.getElementById('weatherApp')
 );
 
